@@ -1,0 +1,27 @@
+
+body{
+	margin: 0;
+}
+
+.box-model{
+	
+	height: 200px;
+	width: 200px;
+	background-color: darkred;
+
+   padding: 20px; <!-- Espaço igual entre as bordas -->
+
+	padding-left: 10px; <!-- Espaço especifico entre as bordas-->
+	padding-right: 5px;
+	padding-bottom: 5px;*/
+
+	padding: 30px 20px 30px 10px; <!-- Espaço agrupado entre as bordas-->
+
+	padding: 30px 20px 5px; <!-- Agrupado em 3 medidas Rigth-Left/botton->
+
+	padding: 30px 20px; <!-- Agrupado em duas medidas top-botto/rigth-left-->
+
+}
+
+
+

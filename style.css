@@ -1,27 +1,53 @@
-
 body{
-	margin: 0;
+	margin: 0px;
+	background-color: Thistle;
 }
 
 .box-model{
-	
 	height: 200px;
 	width: 200px;
-	background-color: darkred;
+	background: red;
+    margin-left: 500px;
+    margin-top: 40px;
+	padding: 20px;
+	border: solid indigo 5px;
+	background-image: url(imagem.png);
 
-   padding: 20px; <!-- Espaço igual entre as bordas -->
-
-	padding-left: 10px; <!-- Espaço especifico entre as bordas-->
+	
+	/*padding-top: 30px;
+	padding-left: 10px;
 	padding-right: 5px;
 	padding-bottom: 5px;*/
 
-	padding: 30px 20px 30px 10px; <!-- Espaço agrupado entre as bordas-->
+	/*padding: 30px 20px 5px 10px;*/
 
-	padding: 30px 20px 5px; <!-- Agrupado em 3 medidas Rigth-Left/botton->
+	/*padding: 30px 20px 5px;*/
 
-	padding: 30px 20px; <!-- Agrupado em duas medidas top-botto/rigth-left-->
+}
+
+.paragrafo{
+	
+	border: solid white 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.paragrafo p{
+	border: solid 5px blue;
+	font-weight: bold;
 
 }
 
 
+.texto-um{
+	text-align: right;
+	color: yellow;
+}
 
+.texto-dois{
+	color: pink;
+}
+.texto-tres{
+	text-align: left;
+	color: green;
+}
